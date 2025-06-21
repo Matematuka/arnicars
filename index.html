@@ -7,8 +7,91 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <section class="top container">
+        <div class="logo">ARNICARS</div>
+        <address class="contacts">
+          <svg class="icon-phone">
+            <use href="/icons/sprite.svg#icon-phone"></use></svg
+          >097 599 33 99
+        </address>
+      </section>
+      <section class="header container">
+        <p class="header-title">
+          Дізнайтесь вартість авто <br />
+          <span class="title-accent">за 30 секунд!</span>
+        </p>
+        <p class="header-text">
+          Терміновий автовикуп у Львові та області – продайте авто<br />
+          вигідно вже сьогодні!
+        </p>
+        <p class="eval">Пройшло оцінку</p>
+        <div class="eval-box">
+          <p class="eval-number">3449</p>
+          <span>авто</span>
+        </div>
+      </section>
+    </header>
+    <main class="main-container">
+      <form class="form-container">
+        <p class="form-title">Дізнайтесь приблизну вартість авто онлайн</p>
+        <div class="dots">
+          <span class="dot1"></span>
+          <span class="dot2"></span>
+        </div>
+        <div class="line"></div>
+        <div class="inputs-group">
+          <div class="column">
+            <div class="input-row">
+              <span class="text">Виберіть марку</span>
+              <svg class="icon">
+                <use href="/icons/sprite.svg#arrow-down"></use>
+              </svg>
+            </div>
+            <div class="input-row">
+              <span class="text">Виберіть модель</span>
+              <svg class="icon">
+                <use href="/icons/sprite.svg#arrow-down"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="column">
+            <div class="input-row">
+              <span class="text">Виберіть рік випуску</span>
+              <svg class="icon">
+                <use href="/icons/sprite.svg#arrow-down"></use>
+              </svg>
+            </div>
+            <div class="input-row">
+              <span class="text">Виберіть об'єм двигуна</span>
+              <svg class="icon">
+                <use href="/icons/sprite.svg#arrow-down"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="inputs-group small-gap">
+          <div class="column">
+            <div class="input-row">
+              <input type="text" placeholder="Ваше ім'я" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="input-row">
+              <input type="tel" placeholder="Ваш номер телефону" />
+            </div>
+          </div>
+        </div>
+
+        <button class="submit-btn">
+          <span class="text-btn">Порахувати онлайн</span>
+          <svg class="icon-btn">
+            <use href="/icons/sprite.svg#arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </main>
     <footer></footer>
   </body>
 </html>
